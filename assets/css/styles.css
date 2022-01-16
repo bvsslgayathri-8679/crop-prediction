@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.navbar-logo {
+    height: 80px;
+    width: 80px;
+    /* padding: 5px; */
+    padding-left: 0px;
+}
+.text-color{
+    color: white;
+}
+.bg-color{
+    background-color: lightgreen;
+}
+
+.bg-container {
+    background-image: url('https://i.ytimg.com/vi/UkgcptAz9IA/maxresdefault.jpg');
+    background-size: cover;
+    height: 80%;
+    /* background:fixed; */
+}
+.bg-container1 {
+    background-image: url('https://www.icgeb.org/wp-content/uploads/2018/12/PLANTBIOL_crop-improv-1.jpeg');
+    background-size: cover;
+    height: 100%;
+    opacity: .9;
+    /* background: fixed; */
+}
+.intro_img{
+    background: url('https://static8.depositphotos.com/1001941/950/v/950/depositphotos_9507511-stock-illustration-vector-nature-background.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    
+}
+
+.bg-cust{
+    background-color: #4a683b;
+    color: white;
+}
+.bg-custom {
+    /* background-color: #87ae73; */
+    background-color: #4a683b;
+    color: white;
+    text-align: center;
+    padding: 0%;
+    width: 100%;
+
+}
+.size{
+    width: 180px;
+    border-width: 0.1rem;
+    border-color: black;
+    
+    margin-left: 8px;
+
+}
+
+.predict
+{
+    margin-top: 8px;
+    background-color: darkgrey;
+    color: white;
+    border-radius: 10px;
+}
+
+.button-bg{
+    background-color: darkgrey;
+    color: white;
+    height: 50px;
+    width: 80px;
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 25px;
+}
+
+
+.pic {
+    height: 200px;
+    width: 300px;
+}
+
+.button-nav{
+    border-radius: 4px;
+    border-color: azure;
+}
+
+
+
+
+
+
+
+
+
+
