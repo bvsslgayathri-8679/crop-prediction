@@ -11,13 +11,13 @@ def home(request):
 
 def predict(request):
     if request.method=='POST':
-        N=int(request.POST['N'])
-        K=int(request.POST['K'])
-        P=int(request.POST['P'])
-        temp=int(request.POST['temp'])
-        humidity=int(request.POST['humidity'])
-        PH=int(request.POST['PH'])
-        rainfall=int(request.POST['rainfall'])
+        N=float(request.POST['N'])
+        K=float(request.POST['K'])
+        P=float(request.POST['P'])
+        temp=float(request.POST['temp'])
+        humidity=float(request.POST['humidity'])
+        PH=float(request.POST['PH'])
+        rainfall=float(request.POST['rainfall'])
         import pandas as pd
         url='https://raw.githubusercontent.com/bvsslgayathri-8679/crop_prediction/main/Crop_recommendation.csv'
         df=pd.read_csv(url)
