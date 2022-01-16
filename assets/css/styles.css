@@ -68,14 +68,14 @@
     border-right: .15em solid rgb(255, 255, 255);
     white-space: nowrap;
     animation: 
-      typing 10s forwards;
+      typing 20s forwards;
     font-size: 1.6rem;
     width: 0;
     color: white;
   }
   @keyframes typing {
     from { width: 0 }
-    to { width: 30% }
+    to { width: 100% }
   }
 /*-------------*/
 .aboutus{
